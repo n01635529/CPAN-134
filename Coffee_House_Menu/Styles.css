@@ -1,0 +1,16 @@
+header, footer {
+    text-align: center;
+    background-color: #d2b48c;
+
+}
+#wrapper{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0%;
+    height: 930px;
+    background-color: #fcebb6;
+
+}
+nav {
+    text-align: center;
+}
