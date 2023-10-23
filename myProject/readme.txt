@@ -1,1 +1,1 @@
-The starting Point is fxxtiHome.html so open that file to get to the home page or open this link on a browser
+The starting Point is fxxtiHome.html so open that file to get to the home page or open this link on a browser https://n01635529.github.io/CPAN-134/myProject/peripherals.html
