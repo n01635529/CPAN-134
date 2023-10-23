@@ -1,0 +1,1 @@
+The starting Point is fxxtiHome.html so open that file to get to the home page or open this link on a browser
