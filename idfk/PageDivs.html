@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Clearfix to contain floated elements */
+      .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Column styling */
+      .column {
+        width: 580 px;
+        /* Set the width to 23% to allow for some spacing */
+        margin: 1%;
+        /* Add margin for spacing between columns */
+        float: left;
+        background-color: #f2f2f2;
+        padding: 15px;
+        box-sizing: border-box;
+        /* Include padding and border in element's total width and height */
+      }
+
+      footer {
+        clear: both;
+      }
+
+      /* Responsive styling for small screens */
+      @media (max-width: 768px) {
+        .column {
+          width: 48%;
+          /* Adjust width for smaller screens */
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="clearfix">
+      <div class="column">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        incidunt libero corporis culpa eius veniam vel totam dolore quod,
+        possimus nostrum, officiis iusto impedit. Laudantium beatae quisquam
+        velit sed eveniet.
+      </div>
+      <div class="column">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod natus,
+        repellat maxime quam cumque beatae vero maiores iste debitis nihil velit
+        commodi explicabo sunt rem nostrum esse magnam aliquam! Libero.
+      </div>
+      <div class="column">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        mollitia magnam laudantium iste, facere veritatis commodi officiis
+        provident ad libero impedit, repudiandae molestias quia aspernatur
+        architecto quod repellat dolores placeat?
+      </div>
+    </div>
+    <footer>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
+      architecto laudantium nobis ipsa, facere debitis consectetur numquam
+      corrupti eum praesentium, hic soluta? Molestiae tenetur repellendus quia
+      sequi eaque, iste cum.
+    </footer>
+    <div class="clearfix">
+      <div class="column">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        incidunt libero corporis culpa eius veniam vel totam dolore quod,
+        possimus nostrum, officiis iusto impedit. Laudantium beatae quisquam
+        velit sed eveniet.
+      </div>
+      <div class="column">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod natus,
+        repellat maxime quam cumque beatae vero maiores iste debitis nihil velit
+        commodi explicabo sunt rem nostrum esse magnam aliquam! Libero.
+      </div>
+      <div class="column">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+        mollitia magnam laudantium iste, facere veritatis commodi officiis
+        provident ad libero impedit, repudiandae molestias quia aspernatur
+        architecto quod repellat dolores placeat?
+      </div>
+    </div>
+  </body>
+</html>

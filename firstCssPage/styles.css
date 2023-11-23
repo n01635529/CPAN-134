@@ -1,0 +1,32 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #ff0000;
+}
+#courseName {
+    color: #ff0000
+}
+.cpan134 {
+    color:#ff8eff
+}
+main li {
+    color: green;
+}
+input[type=submit] {
+    border: 1px solid black;
+    color:#ef9c00;
+    background-color: #facd8a;
+
+}
+a:link {
+    color:green
+}
+a:hover, a:focus {
+    color: fuchsia
+}
+main p:first-child {
+    font-weight: bold;
+}
+main p:first-child::first-letter {
+    font-size: 150%;
+}
