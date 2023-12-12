@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  border: #fff 1px solid;
+  .url {
+    font-size: 2em;
+  }
+}
+
+.default-theme {
+  background-color: #1e1e2e;
+  color: #fff;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.light-theme {
+  background-color: #fff;
+  color: #000;
+}

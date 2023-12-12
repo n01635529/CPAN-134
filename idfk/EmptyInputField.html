@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>Click the button to get a time-based greeting:</p>
+    <button onclick="validate()">Submit</button>
+    <input id="response" type="text"></input>
+    <p id="demo"></p>
+    <script>
+    function validate() {
+        if(document.getElementById("response").value == "") {
+            document.getElementById("demo").innerHTML = "Please enter your name";
+        } else {
+            document.getElementById("demo").innerHTML = "Your name is " + document.getElementById("response").value;
+        }                    
+    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <style>
+      #p1 {
+        color: red;
+        float: left;
+        border-right: 1px solid black;
+        width: 4.55%;
+      }
+
+      #p2 {
+        color: blue;
+        float: left;
+        border-right: 1px solid black;
+        width: 4.55%;
+      }
+
+      #p3 {
+        color: green;
+        float: left;
+        border-right: 1px solid black;
+        width: 4.55%;
+      }
+
+      #p4 {
+        color: pink;
+        float: left;
+        border-right: 1px solid black;
+        width: 4.55%;
+      }
+
+      #p5 {
+        color: brown;
+        float: left;
+        border-right: 1px solid black;
+        width: 4.55%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button onclick="timetable()">click to get timestables</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <p id="p5"></p>
+    <script>
+      function timetable() {
+        for (i = 1; i <= 5; i++) {
+            p = "p" + i
+          for (j = 1; j <= 10; j++) {
+            result = j * i;
+            document.getElementById(p).append(i + " * " + j + " = " + result);
+            document.getElementById(p).appendChild(document.createElement("br"));
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
